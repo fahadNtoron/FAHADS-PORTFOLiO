@@ -73,3 +73,21 @@ header{
 
 
 }
+.about-head{
+    font-weight: bolder;
+    font-size: 45PX;
+}   
+.about{
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    padding:130px 150px;
+    background-image: url("../portfolio-resources/images/header_bg.png");
+    background-repeat: no-repeat;
+    /* background-position: left right; */
+}
+main{
+    max-width:1149px;
+    margin:0 auto;
+
+}
