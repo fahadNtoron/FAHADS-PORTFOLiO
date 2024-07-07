@@ -1,0 +1,75 @@
+*{
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+/* nav style */
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+.flex{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.opc{
+    opacity: .6;
+    color:black
+}
+.nav-tittle{
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 195px;
+}
+.tittes-o{
+    color: #FD6E0A;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#474747;
+}
+nav ul li{
+    margin:10px
+}
+.button-all{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    border:none;
+}
+.extra{
+    background-color: none;
+    border-color: 5px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.banner{
+    display: flex;
+    justify-content:space-between;
+
+}
+.banner-profile{
+    width: 584px;
+    height: 676px;
+}
+.contant{
+    max-width: 580px;
+    margin: 0px 35px 0px 230px;
+}
+header{
+    background-image: url("../portfolio-resources/images/developer.png"),url("../portfolio-resources/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+
+
+}
